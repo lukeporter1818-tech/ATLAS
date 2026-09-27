@@ -1,0 +1,20 @@
+{
+  "name": "atlas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "atlas:run": "tsx atlas/core/src/runner.ts run",
+    "web:dev": "npm run dev --prefix atlas/web",
+    "web:build": "npm run build --prefix atlas/web",
+    "web:start": "npm run start --prefix atlas/web"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
