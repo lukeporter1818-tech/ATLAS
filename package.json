@@ -1,9 +1,8 @@
 {
-  "name": "atlas",
+  "name": "traides",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "atlas:run": "tsx atlas/core/src/runner.ts run",
     "web:dev": "npm run dev --prefix atlas/web",
     "web:build": "npm run build --prefix atlas/web",
     "web:start": "npm run start --prefix atlas/web"

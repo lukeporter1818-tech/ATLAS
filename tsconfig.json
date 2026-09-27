@@ -10,9 +10,7 @@
     "rootDir": "./"
   },
   "include": [
-    "atlas/core/**/*",
-    "atlas/shared/**/*",
-    "atlas/skills/**/*"
+    "traides/**/*"
   ],
   "exclude": ["node_modules", "atlas/web", "dist"]
 }
