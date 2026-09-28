@@ -10,7 +10,7 @@
     "rootDir": "./"
   },
   "include": [
-    "traides/**/*"
+    "atlas/src/**/*"
   ],
   "exclude": ["node_modules", "atlas/web", "dist"]
 }
